@@ -1,0 +1,14 @@
+{
+  "name": "mahrosh-ai",
+  "version": "1.0.0",
+  "description": "MAHROSH AI by Mahrosh Azhar",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/genai": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "openai": "latest"
+  }
+}
