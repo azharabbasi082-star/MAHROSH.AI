@@ -20,33 +20,34 @@ button{cursor:pointer}.new-chat{border:1px solid #374151;background:#1f2937;colo
 .input-area{padding:15px 8% 20px;background:#f5f7fb}.input-box{max-width:900px;margin:auto;background:#fff;border:1px solid #d1d5db;border-radius:15px;display:flex;align-items:center;padding:8px;box-shadow:0 3px 15px rgba(0,0,0,.05)}
 textarea{flex:1;border:none;outline:none;resize:none;font-family:inherit;font-size:15px;padding:10px;min-height:42px;max-height:120px}.send{width:45px;height:45px;border:none;border-radius:11px;background:#111827;color:#fff;font-size:18px}.send:hover{background:#2563eb}
 @media(max-width:700px){
-  .sidebar{
-    display:none;
-  }
+    .sidebar{
+        display:none;
+    }
 
-  .chat{
-    padding:16px 12px 20px;
+    .chat{
+        padding:16px 12px 120px;
+    }
+
+    .input-area{
+        padding:10px 12px;
+    }
+
+    .examples{
+        grid-template-columns:1fr;
+        gap:10px;
+        padding-bottom:20px;
+    }
+
+    .welcome{
+        margin:20px auto;
+    }
+
+    .welcome h1{
+        font-size:24px;
+    }
 }
-  }
 
-  .input-area{
-    padding:10px 12px;
-  }
-
-  .examples{
-    grid-template-columns:1fr;
-    gap:10px;
-    padding-bottom:20px;
-  }
-
-  .welcome{
-    margin:24px auto 20px;
-  }
-
-  .welcome h1{
-    font-size:27px;
-    line-height:1.2;
-  }
+  
 
   .welcome p{
     font-size:15px;
